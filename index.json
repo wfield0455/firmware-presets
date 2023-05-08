@@ -152,6 +152,7 @@
       "Betaflight",
       "ctzsnooze",
       "Joshua Bardwell",
+      "KB1FPV(Wayne Field)",
       "sugarK",
       "UAV Tech (Mark Spatz)"
     ],
@@ -188,6 +189,7 @@
       "GPS",
       "HD",
       "HD video",
+      "HDOSD",
       "HDzero",
       "karatebrot",
       "leds",
@@ -680,6 +682,23 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/osd/KB1FPV-HD-OSD.txt",
+      "hash": "65c1fcb29e163ec1c3cbbb2ca03b05c16bfee294e4b17f914d05a7bff52fcfd7",
+      "title": "KB1FPV - HD OSD",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "DJI",
+        "HD",
+        "HDOSD"
+      ],
+      "author": "KB1FPV(Wayne Field)",
       "priority": 0
     },
     {
