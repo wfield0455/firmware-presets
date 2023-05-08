@@ -10,7 +10,6 @@
 #$ DESCRIPTION: KB1FPV - HD OSD Settings
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION:
-#$ DESCRIPTION: <a href="https://www.youtube.com/c/QuadMcFlyFlies" target="_blank"><img src="https://www.miniquadtestbench.com/assets/images/me-small-dji.png" width="100px" style="float:left; margin-right: 25px; display: block;"/></a><br /><br />
 #$ DESCRIPTION: OSD setup for new HD OSD option / Googles V2. 
 #$ DESCRIPTION: <br /><br />
 #$ DESCRIPTION:
@@ -21,7 +20,6 @@
 #$ DESCRIPTION: 
 #$ DESCRIPTION: OSD Setup:
 #$ DESCRIPTION: -----------
-#$ DESCRIPTION: <img src="https://www.miniquadtestbench.com/assets/images/qmf-hdosd-preset.png" style="width:100%"/>
 #$ DESCRIPTION: 
 #$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/385
 
