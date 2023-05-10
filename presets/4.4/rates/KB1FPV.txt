@@ -1,0 +1,51 @@
+#$ TITLE: KB1FPV Rates (w/ Cinematic/Whoop Options)
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RATES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: whoop, freetyle, cinematic, HD
+#$ AUTHOR: KB1FPV - Wayne Field
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION:
+#$ DESCRIPTION: Information:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: FREESTYLE: 560 degrees/sec for roll and pitch, 392 - for yaw. Smooth at center stick but still snappy at the edges.
+#$ DESCRIPTION:
+#$ DESCRIPTION: OPTIONS:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: - CINEMATIC/HD: Same max rates, but adds more smoothing (Expo.) at center stick for smooth transitions when you pass over stick centers (improved "skating" HD footage).
+#$ DESCRIPTION: - WHOOP: For whoop racing in Angle/Horizon Modes.  Adjust Yaw rate and also Angle/Horizon Strenght, Level Limit and Transition.  It along with adds 0.5 Throttle Expo at the 45% throttle.
+#$ DESCRIPTION:
+#$ INCLUDE: presets/4.3/rates/defaults.txt
+
+set rates_type = ACTUAL
+set roll_rc_rate = 1
+set pitch_rc_rate = 1
+set yaw_rc_rate = 1
+set roll_expo = 35
+set pitch_expo = 35
+set yaw_expo = 35
+set roll_srate = 56
+set pitch_srate = 56
+set yaw_srate = 70
+
+#$ OPTION BEGIN (UNCHECKED): Cinematic/HD Smoothing
+    # -- ADDER: Cinematic/HD Expo --
+    set roll_expo = 40
+    set pitch_expo = 40
+    set yaw_expo = 40
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Whooping in Angle\Horizon Mode
+    # -- ADDER: Whoop Yaw, Angle & Horizon Settings --
+    set thr_mid = 45
+    set thr_expo = 50
+    set yaw_rc_rate = 10
+    set yaw_expo = 25
+    set yaw_srate = 56
+    set angle_level_strength = 70
+    set horizon_level_strength = 70
+    set horizon_transition = 100
+    set level_limit = 85
+#$ OPTION END
