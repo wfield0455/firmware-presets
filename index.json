@@ -152,6 +152,7 @@
       "Betaflight",
       "ctzsnooze",
       "Joshua Bardwell",
+      "KB1FPV - Wayne Field",
       "KB1FPV(Wayne Field)",
       "sugarK",
       "UAV Tech (Mark Spatz)"
@@ -700,6 +701,42 @@
       ],
       "author": "KB1FPV(Wayne Field)",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/rates/defaults.txt",
+      "hash": "3eb0eebc69558dcb5de2e985850026a0ca4b0634601f4b66c0f4ea36b2e17f91",
+      "title": "Default rates",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "rates",
+        "actual"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/rates/KB1FPV.txt",
+      "hash": "cdab18160b568cbc91c20a41fd50857a08cb736e1058a13b7fc584da4a5fed28",
+      "title": "KB1FPV Rates (w/ Cinematic/Whoop Options)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "whoop",
+        "freetyle",
+        "cinematic",
+        "HD"
+      ],
+      "author": "KB1FPV - Wayne Field",
+      "priority": 10000
     },
     {
       "fullPath": "presets/4.4/rc_link/reset_to_defaults.txt",
